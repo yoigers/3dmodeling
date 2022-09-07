@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: maya practice.ma
-//Last modified: Wed, Sep 07, 2022 11:40:59 AM
+//Last modified: Wed, Sep 07, 2022 11:42:30 AM
 //Codeset: 1252
 requires maya "2023";
 requires "mtoa" "5.1.2";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202205052215-234554116d";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22000)";
-fileInfo "UUID" "A7B587D3-44D3-72D2-BBAD-18A7AB0465C3";
+fileInfo "UUID" "957DF233-417D-0421-49E4-F5B920A62EEA";
 createNode transform -s -n "persp";
 	rename -uid "3ABB7724-4A87-B9DF-DE34-569327303C78";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.3503369096756928 7.4716943204698367 20.330298097469086 ;
-	setAttr ".r" -type "double3" -20.138352730087711 2163.7999999998524 -9.9611332468621282e-17 ;
+	setAttr ".t" -type "double3" 6.1894474499823424 1.263748798223518 20.76208866561959 ;
+	setAttr ".r" -type "double3" -3.3383527300880331 2176.5999999999563 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2601EEE9-4F72-FF48-06ED-0CA56709F21E";
 	setAttr -k off ".v" no;
