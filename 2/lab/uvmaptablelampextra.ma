@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: uvmaptablelampextra.ma
-//Last modified: Fri, Sep 23, 2022 12:51:49 PM
+//Last modified: Fri, Sep 23, 2022 12:54:03 PM
 //Codeset: 1252
 requires maya "2023";
 requires "mtoa" "5.1.2";
@@ -13,12 +13,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202205052215-234554116d";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22000)";
-fileInfo "UUID" "EC1CBAF1-44FC-985B-2058-8AB89615B903";
+fileInfo "UUID" "8775C124-46BF-6BDB-E94D-39B08A3F4D2D";
 createNode transform -s -n "persp";
 	rename -uid "1BE58E65-4EF2-21E6-1A05-848DE954316F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.21017710941697132 4.1192390686832878 11.886972762639676 ;
-	setAttr ".r" -type "double3" -10.538352735294428 361.40000000015976 -4.9711006141191653e-17 ;
+	setAttr ".t" -type "double3" -7.7920706212365527 7.5991070042810742 8.0038981863237471 ;
+	setAttr ".r" -type "double3" -27.338352735291238 319.40000000013941 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5C7AA921-4978-DAC0-7A35-48959F40BF84";
 	setAttr -k off ".v" no;
