@@ -1,0 +1,8 @@
+
+*.DS_Store
+
+*.spp
+
+*.ZPR
+
+*.painter_lock
