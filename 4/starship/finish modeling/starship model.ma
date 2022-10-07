@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: starship model.ma
-//Last modified: Fri, Oct 07, 2022 12:02:50 PM
+//Last modified: Fri, Oct 07, 2022 12:06:21 PM
 //Codeset: 1252
 file -rdi 1 -ns "ccd_enterprise_sheet_1" -rfn "ccd_enterprise_sheet_1RN" -typ
 		 "image" "C:/Users/lymer/OneDrive/Documents/things/fall 2022/dgm 1660/3dmodeling/4/starship/ccd-enterprise-sheet-1.jpg";
@@ -15,18 +15,18 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202205052215-234554116d";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "88BE050A-4BCC-A268-C01C-7694E2E96B4E";
+fileInfo "UUID" "8FB9AE57-45ED-BD9F-56B4-E98E3ED07798";
 createNode transform -s -n "persp";
 	rename -uid "E4379FE5-4492-DAA1-4C18-0DB3AD317827";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 19.87334009669739 8.4678219721477284 -12.487670233679369 ;
-	setAttr ".r" -type "double3" -5.9999999999924007 129.5999999999766 359.99999999999551 ;
+	setAttr ".t" -type "double3" 13.22077554364569 10.659764627844671 -18.137235716343444 ;
+	setAttr ".r" -type "double3" -13.199999999985948 145.59999999999604 360 ;
 	setAttr ".rpt" -type "double3" -2.2001540995903166e-15 1.1494131150954136e-15 -4.3123959118220308e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FDF16495-449E-E837-56C1-FA98F5A62CB9";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 27.087869944409427;
+	setAttr ".coi" 22.760961768816326;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -5917,7 +5917,7 @@ createNode groupId -n "groupId24";
 	rename -uid "4EC580C9-40C1-54CC-BD05-DC83A2E0BCEA";
 	setAttr ".ihi" 0;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "3C841FB2-454E-7593-ECD1-E08DEFD4A958";
+	rename -uid "AAA640CB-42F7-2406-B1D5-3D844DAAFF43";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -305.59775887993902 -1224.4427071707528 ;
