@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: HeadStart.ma
-//Last modified: Wed, Oct 26, 2022 02:23:04 PM
+//Last modified: Wed, Oct 26, 2022 02:23:53 PM
 //Codeset: 1252
 requires maya "2023";
 requires "mtoa" "5.1.2";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202205052215-234554116d";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "C680AC5E-4850-3D18-90B8-109525698090";
+fileInfo "UUID" "3464ECFC-401A-1141-BFAF-3E8D49375944";
 createNode transform -s -n "persp";
 	rename -uid "82B7AE1D-3644-49B1-7693-27AD97E4AFCF";
 	setAttr ".v" no;
